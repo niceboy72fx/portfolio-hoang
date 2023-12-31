@@ -5,6 +5,7 @@
   position: relative;
   z-index: 0;
   max-width: 1440px;
+  /* min-height: 70vh; */
   margin: auto;
   @media (min-width: 1280px) {
     flex-direction: row;
@@ -14,6 +15,7 @@
 .hero-content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   padding-top: 100px;
   padding-left: 16px;
   padding-right: 16px;
@@ -26,13 +28,12 @@
     font-size: 72px;
   }
   @media (min-width: 640px) {
-    font-size: 64px;
+    font-size: 50px;
   }
 }
 
 .content-subtitle {
   font-size: 27px;
-  color: #000;
   font-weight: light;
   margin-top: 1.25rem;
 }
@@ -46,6 +47,7 @@
   font-size: 15px;
   font-weight: 800;
   max-width: 180px;
+  box-shadow: 10px 0px 100px #3b82f6;
 }
 
 .content-image {

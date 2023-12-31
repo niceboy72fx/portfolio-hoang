@@ -16,7 +16,7 @@ const Navbar = () => (
         />
       </Link>
       <CustomButton
-        title="Sign in"
+        title="Contact me"
         btnType="button"
         containerStyles="nav-button"
       />

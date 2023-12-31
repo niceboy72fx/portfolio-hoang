@@ -20,16 +20,19 @@ export default async function Home() {
       <Hero />
       <div className="discover">
         <div className="dicover-head">
-          <h1 className="head-title ">Car Catalogue</h1>
-          <p style={{ marginBottom: "20px" }}>
-            Explore out cars you might like
-          </p>
+          <h1 className="head-title text-white">About me</h1>
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">My Experience</h1>
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">My Projects</h1>
         </div>
         <div className="flex flex-col       xs:flex-col">
           <div className="search py-5  ">
-            <SearchBar />
+            {/* <SearchBar /> */}
             <div className="flex flex-row gap-14">
-              <CustomFilter title="fuel" options={fuels} />
+              <CustomFilter title="Project" options={fuels} />
               <CustomFilter title="year" options={yearsOfProduction} />
             </div>
           </div>
@@ -43,6 +46,18 @@ export default async function Home() {
               <p></p>
             </div>
           )}
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">Awards & Certificate</h1>
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">Education</h1>
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">My Skills</h1>
+        </div>
+        <div className="dicover-head">
+          <h1 className="head-title text-white">Contact me</h1>
         </div>
       </div>
     </main>

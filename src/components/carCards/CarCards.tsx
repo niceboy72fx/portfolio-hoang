@@ -12,10 +12,9 @@ const CarCard: React.FC<{ item: any }> = ({ item }) => {
 
   return (
     <div className="card">
-      <h2 className="card-header uppercase">{item?.make}</h2>
+      <h2 className="card-header uppercase text-white">Spring </h2>
       <div className="card-group">
-        <h2 className="group-price">${item?.highway_mpg}</h2>
-        <h2 className="group-content">/ day</h2>
+        <h2 className="font-bold text-lg text-white">Spring boot</h2>
       </div>
       <Image className="card-img" src={car} alt="car" />
       <button className="card-button" onClick={showButton}>
