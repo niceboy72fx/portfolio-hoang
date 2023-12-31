@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "EdXFont";
+  src: url("https://files.edx.org/fonts/edx-fonts/open-sans/open-sans.css");
+}
+
 :root {
+  font-family: "EdXFont", sans-serif;
 }
 
 body {

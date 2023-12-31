@@ -8,8 +8,8 @@ import { Providers } from "@/redux/customProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Car Hub",
-  description: "Discover world's best car showcase application",
+  title: "Van Hoang Luong",
+  description: "My Profile",
 };
 
 export default function RootLayout({
