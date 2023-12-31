@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+.header-nav {
+  /* max-width: 1440px; */
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin: 0 auto;
+  @media (min-width: 640px) {
+    padding: 0 1.6rem;
+  }
+}
+
+.nav-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.nav-button {
+  background-color: #3b82f6;
+  border-radius: 50px;
+  padding: 10px;
+  color: #ffffff;
+  min-width: 130px;
+}

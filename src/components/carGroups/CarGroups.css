@@ -1,0 +1,9 @@
+.group-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 30px;
+  @media (min-width: 980px) {
+    grid-template-columns: auto auto auto auto;
+  }
+}

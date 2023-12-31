@@ -1,0 +1,36 @@
+.discover {
+  margin-top: 80px;
+  padding: 1rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.discover-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 10px;
+}
+
+.head-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home__filters {
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
