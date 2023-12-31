@@ -10,12 +10,12 @@ const Model3D = () => {
       const scene = new THREE.Scene();
 
       // Create camera
-      const camera = new THREE.PerspectiveCamera(75, 2, 0.5, 1000);
+      const camera = new THREE.PerspectiveCamera(75, 1, 0.5, 1000);
       camera.position.z = 4.5;
 
       // Create renderer
       const renderer = new THREE.WebGLRenderer();
-      renderer.setSize(600, 400);
+      renderer.setSize(800, 600);
       if (sceneRef.current) {
         sceneRef.current.appendChild(renderer.domElement);
       }
@@ -27,7 +27,7 @@ const Model3D = () => {
         wireframe: true,
       });
       const cube = new THREE.Mesh(geometry, material);
-      cube.scale.set(3, 3, 3);
+      cube.scale.set(2, 2, 2);
       scene.add(cube);
 
       // Animation function

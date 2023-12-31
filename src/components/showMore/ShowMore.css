@@ -10,8 +10,9 @@
 }
 
 .show-win {
-  background-color: white;
+  background-color: black;
   padding: 30px;
+  color: white;
   border-radius: 10px;
   position: relative;
   box-shadow: 0px 0px 80px #3b82f6;
@@ -24,12 +25,13 @@
 
 .close {
   background-color: white;
+  color: white;
   border-radius: 100%;
   position: absolute;
   right: 20px;
   top: 17px;
   padding: 5px;
-  box-shadow: 0px 0px 20px #3b82f6;
+  box-shadow: 0px 0px 80px #3b82f6;
 }
 
 .win-content {

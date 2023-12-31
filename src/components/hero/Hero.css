@@ -5,10 +5,12 @@
   position: relative;
   z-index: 0;
   max-width: 1440px;
-  /* min-height: 70vh; */
+  min-height: 90vh;
   margin: auto;
+  align-items: center;
   @media (min-width: 1280px) {
     flex-direction: row;
+    /* min-height: 50vh; */
   }
 }
 
@@ -55,8 +57,9 @@
   justify-content: end;
   align-items: end;
   width: 100%;
-  @media (min-width1280px) {
-    height: 100vh;
+  @media (max-width: 900px) {
+    /* height: 100vh; */
+    display: none;
   }
 }
 

@@ -33,11 +33,11 @@ const ShowMore: React.FC<CarDetails> = ({ item }) => {
         </button>
         <Image className="win-image" src={car} alt="car" />
         <div className="win-content">
-          <h1 className="content-header">Toyota </h1>
+          <h1 className="content-header">Spring </h1>
           <div className="max-w-lg">
-            <h2 className="font-semibold text-xl capitalize">{item?.model}</h2>
+            <h2 className="font-semibold text-xl capitalize">Django</h2>
             <div className="mt-3 flex flex-wrap gap-4">
-              {Object.entries(item).map(([key, value]) => (
+              {/* {Object.entries(item).map(([key, value]) => (
                 <div className="flex justify-between  w-full " key={key}>
                   <h4 className="text-grey capitalize">
                     {key.split("_").join(" ")}
@@ -46,7 +46,7 @@ const ShowMore: React.FC<CarDetails> = ({ item }) => {
                     {value as ReactNode}
                   </p>
                 </div>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
