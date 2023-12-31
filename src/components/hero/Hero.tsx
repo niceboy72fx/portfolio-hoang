@@ -38,7 +38,6 @@ const Hero = () => {
       </div>
       <div className="content-image">
         <div className="image-contaner">
-          {/* <Image src={ImageFile} alt="hero" fill className="object-contain" /> */}
           <Model3D />
         </div>
         <div className="image-overlay" />
